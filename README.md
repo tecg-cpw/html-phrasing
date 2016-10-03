@@ -10,3 +10,10 @@
 
 * * *
 
+## Un petit aperçu des balises de formatage de texte
+
+Dans le document `index.html` joint à l'énoncé, nous allons découvrir toute une série de balises.
+
+Une fois n'est pas coutume, les instructions de l'exercice se trouvent à l'intérieur du fichier [index.html](./index.html).
+
+Bon travail.

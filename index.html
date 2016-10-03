@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Un petit aperçu des balises de formatage de texte</title>
+    </head>
+    <body>
+        <!-- Dans ce document, nous allons voir pas mal de balises. N’hésitez pas à commenter vos balises histoire de vous y retrouver par la suite. -->
+
+        <!-- ***** Balises inline de formatage de texte ***** -->
+
+        Les balises de phrasing
+
+        <!-- ... (« anchor » ou « ancre ») sert à baliser un hyperlien.
+        Penser à utiliser les attributs ... pour l’adresse du site ciblé par le lien,
+        ... pour la langue du site ciblé par le lien et ... pour améliorer la prédictibilité du lien -->
+        <p>
+            Il y a deux spécifications pour le HTML 5 : celle du w3C [http://dev.w3.org/html5/html-author/"] [consulter la spécification officielle du langage HTML5 sur le site du World Wide Web Consortium] et celle du whatWG [https://html.spec.whatwg.org/multipage/] [consulter la spécification du langage HTML5 sur le site du Web Hypertext Application Technology Working Group].
+        </p>
+
+        <!-- ... représente une abréviation ou un acronyme.
+        On y ajoute l’attribut ... pour en décrire le sens (expression complète). -->
+        <p>
+            En classe, nous faisons du HTML [HyperText Markup Language] et du CSS [Cascading StyleSheet].
+        </p>
+
+        <!-- ... représente un terme que nous définissons/expliquons directement dans le contenu. -->
+        <p>
+            La foire de Liège est une fête foraine centenaire où on peut s'engraisser pour très cher, mais c'est pas bien grave pasque c'est cool.
+        </p>
+        <p>
+            La rétrocompatibilité consiste à développer une solution technique en tenant compte de son passé, afin d'assurer une continuité de fonctionnement avec les précédentes versions.
+        </p>
+        <p>
+            Le Web Hypertext Application Technology Working Group (WHATWG [Web Hypertext Application Technology Working Group]) est une association officieuse de fabricants de navigateurs Web et de parties intéressées qui souhaitent développer de nouvelles technologies conçues pour permettre aux auteurs d'écrire et de déployer des applications sur le WWW [World Wide Web].
+        </p>
+        <p>
+            Le WHATWG [Web Hypertext Application Technology Working Group] est une association officieuse de fabricants de navigateurs Web et de parties intéressées qui souhaitent développer de nouvelles technologies conçues pour permettre aux auteurs d'écrire et de déployer des applications sur le WWW [World Wide Web].
+        </p>
+
+        <!-- ... sert à mettre un texte en évidence (emphase, donne de l’importance ou une affectation pompeuse au discours).
+        Son apparence par défaut (mais on peut changer cela en CSS) est un style de texte italique.
+        Ne pas confondre avec i. -->
+        <p>
+            J'adore les pages qui ont du style !
+        </p>
+        <p>
+            J'en suis sûr : tu as fini les M&M's.
+        </p>
+
+        <!-- ... représente une portion de texte lu d’une autre voix ou d’une humeur différente ou indique une qualité différente de texte, une portion de texte qui doit être « décalée » du contenu mais sans conférer d’importance ou d’emphase (ex. expression d’une autre langue, terme technique, désignation taxonomique, pensée, nom d’un vaisseau, ...).
+        Son apparence par défaut (mais on peut changer cela en CSS) est un style de texte italique.
+        Ne pas confondre avec em. Préférer dfn pour baliser un terme qu’on définit. -->
+        <p>
+            La lettre A est la première de l'alphabet.
+        </p>
+        <p>
+            Chewbacca est le copilote du Faucon Millenium.
+        </p>
+        <p>
+            Le chat domestique (Felis silvestris catus) est très mignon.
+        </p>
+        <p>
+            Le chat domestique (Felis silvestris catus) est un mammifère carnivore de la famille des félidés.
+        </p>
+        <p>
+            On est venus, 500, habillés à la one-again.
+        </p>
+        <p>
+            There is a certain je ne sais quoi in the air.
+        </p>
+        <div>
+            <p>
+                Raymond essaya de dormir.
+            </p>
+            <p>
+                Le navire quitta le port jeudi, se mit-il à rêver. Il y avait beaucoup de passagers à bord, dont une belle princesse appelée Carey . Il la regardait, jour après jour, espérant qu'elle le remarquerait, mais elle ne le voyait jamais. Enfin, une nuit, il prit le courage de parler avec elle.
+            </p>
+            <p>
+                Raymond se réveilla en sursaut au son de l'alarme incendie.
+            </p>
+        </div>
+
+        <!-- ...  sert à mettre un texte fortement en évidence (emphase ou importance forte).
+        Son apparence par défaut (mais on peut changer cela en CSS) est un corps de police gras.
+        Ne pas confondre avec b. -->
+        <p>
+            ATTENTION ! Ne pas éteindre cet ordinateur !
+        </p>
+        <p>
+            Il est important de noter que nous ne remboursons pas les chaussettes usagées.
+        </p>
+        <p>
+            J'attends vos interros pour dans une heure, sans faute.
+        </p>
+
+        <!-- ... procède à la mise en valeur via un style différent, mais sans conférer d’importance particulière (on ne change ni d’intonation ni d’humeur en lisant).
+        On l’utilise pour du texte qui doit ressortir (pour attirer l’attention) sans qu’il y ait d’emphase ou d’accent (ex. mots-clés, noms de produits, ...).
+        On peut aussi l’utiliser pour marquer l’introduction d’un article.
+        N.B. À utiliser en dernier ressort quand aucun autre élément ne convient (en particulier, em pour emphase, strong pour forte importance, mark pour texte  surligné).
+        Son apparence par défaut (mais on peut changer cela en CSS) est un corps de police gras.
+        Ne pas confondre avec strong. -->
+        <p>
+            Tournez à droite dans le Boulevard d'Avroy.
+        </p>
+        <p>
+            Un iPhone 5s luxueux. Des performances graphiques et de processeur jamais vues. Internet mobile à vitesse de croisière. Presque la vitesse de la lumière.
+        </p>
+        <p>
+            Les beignes au chocolat de la boulangerie de Marie sont probablement les plus délicieux et les plus parfaits beignets chocolatés jamais créés !
+        </p>
+        <article>
+            <h2>
+                Géolocalisation en HTML5
+            </h2>
+            <p>
+                La géolocalisation fait partie des API [Application Programming Interface] gravitant autour de HTML5 (Geolocation API Specification [http://dev.w3.org/geo/api/spec-source.html]) et des nouvelles fonctionnalités introduites par la mobilité. Ses usages sont nombreux et souvent corrélés avec des bases de données de renseignements géographiques.
+            </p>
+            <!-- Suite de l’article -->
+        </article>
+
+        <!-- ... représente un mot ou un extrait de texte marqué ou mis en évidence (surligné) à des fins de référence, en raison de sa pertinence pour l’activité courante de l’utilisateur (ex.résultats d’une page de recherche). Il signale une portion de texte sur laquelle on veut attirer l’attention (« marqueur fluo »).
+        On l’utilise aussi dans une citation si on veut mettre l’accent sur un passage qui n’était pas mis en évidence à l’origine (pas été considéré comme important par l’auteur original lorsque le bloc a été écrit), mais sur lequel on souhaite à présent attirer l’attention du lecteur car il est maintenant d’un intérêt particulier pour lui.
+        Le style par défaut (mais on peut changer par CSS) consiste en une couleur de fod jaune vif et un texte noir. -->
+
+        <!-- Imaginons que quelqu’un regarde un document et fait une recherche sur le mot « chaton ». Le serveur renvoie le document avec un paragraphe modifié comme suit : -->
+
+        <p>
+            J'ai aussi quelques chatons qui me rendent visite ces jours-ci. Ils sont vraiment mignons. Je crois qu'ils aiment mon jardin ! Peut-être que je devrais adopter un chaton.
+        </p>
+
+        <!-- ... sert à annoter une portion de texte pour correction ultérieure.
+        Sa présentation par défaut (mais on peut changer cela par CSS) est un texte souligné.
+        À utiliser avec parcimonie car il peut être aisément cofondu avec un lien. -->
+        <p>
+            Ce que je vois là me paraît très étéroklite.
+        </p>
+
+        <!-- ... (« small print », « petits caractères d’imprimerie figurant au bas de contrats dont l’auteur souhaite qu’on ne les lise pas ») sert à signaler des mentions spécifiques ou légales, des avertissements discrets, la précision d’une licence d’utilisation. -->
+        <p>
+            N'oubliez pas de lire les clauses en petits caractères. Celle qui dit que vous m'avez vendu votre âme.
+        </p>
+        <p>
+            Les éléments de cette page sont sous Licence Creative Comons [http://creativecommons.org/licenses/by-nc-sa/2,0/fr/].
+        </p>
+
+        <!-- ... représente un texte en indice (ex. formule chimique), et ... un texte en exposant (ex. qualificatif numérique, exposant mathématique) -->
+        <p>
+            Ce matin, j'ai bu un grand verre d'H20, ce n'était pas la 1re fois.
+        </p>
+
+        <!-- ... sert à forcer un retour à la ligne. -->
+        <p>
+            Quand on n'a que l'amour
+            A s'offrir en partage
+            Au jour du grand voyage
+            Qu'est notre grand amour
+        </p>
+
+        <!-- ... représente une citation courte, au sein d’un paragraphe -->
+        <p>
+            Et là, il m'a dit, et je cite, c'est celui qui dit qui est.
+        </p>
+
+        <!-- ... représente la source d’une citation. Cela peut être le nom d’une œuvre (livre, chanson, pièce de théâtre, opéra, film, émission, jeu, peinture, expo, autre page web, etc.), mais cla peut être aussi le nom de l’auteur (ATTENTION, corriger livre p.144 et référence p.36) -->
+        <p>
+            Tout ce que je dis est expliqué dans le livre de Rodolphe Rimelé : HTML 5 : la référence.
+        </p>
+        <p>
+            Si le Carpe Diem de Horace ne te dit rien, intéresse-toi à l'épicurisme ! Cette locution latine signifie Cueille le jour présent sans te soucier du lendemain.
+        </p>
+
+        <!-- ... balise un texte dont on veut changer la direction.
+        Utiliser l’attribut ... pour spécifier le sens de lecture. -->
+        <p>
+            Ce texte se lit de gauche à droite.
+        </p>
+        <p>
+            Ce texte se lit de droite à gauche.
+        </p>
+        <p>
+            Un palindrome est un texte ou un mot dont l'ordre des lettres reste le même qu'on le lise de gauche à droite ou de droite à gauche, comme dans la phrase La mariée ira mal, qui donne, si on la lit de droite à gauche, La mariée ira mal.
+        </p>
+
+        <!-- ... sert à baliser un extrait de code -->
+        <p>
+            Le 1er exemple de balise de cette page est la balise <a>.
+        </p>
+        <p>
+            Voici la strucure de base d'un document HTML :
+        </p>
+<!-- <!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+    </body>
+</html> -->
+
+        <!-- ... délimite un exemple ou un échantillon (« sample ») de sortie produite par un programe ou un système (ex. message de sortie, résultat d’un programme). -->
+        <p>
+            Si vous obtenez le message Parse error, ne paniquez pas !
+        </p>
+
+        <!-- ... (« keyboard ») représente un texte entré au clavier par l’utilisateur.
+        Contenu dans samp, il représente une entrée telle qu’elle a été retournée par le système.
+        Contenu dans un autre kbd, il représente une touche du clavier.
+         Le rendu par défaut (mais cela peut se changer par CSS) est un texte dans une police à chasse fixe. -->
+         <p>
+             Entrez l'adresse www.alsacreations.com.
+         </p>
+        <p>
+            Pour afficher le panneau de commandes dans SublimeText, pressez simultanément les touches cmd+Shift+P.
+        </p>
+        <p>
+            Confirmez en cliquant sur Oui.
+        </p>
+
+        <!-- ... représente une date, précisée numériquement par l’attribut datetime, au cas où le contenu de la balise pourrait créer des ambiguités. -->
+        <p>
+            Hier, j'ai beaucoup travaillé.
+        </p>
+
+        <!-- var (« variable ») représente une variable dans une expression mathématique ou un programme.
+        La mise en forme par défaut (mais ça peut se changer par CSS) est un texte en italique. -->
+        <p>
+            Une équation simple : y = x + 2
+        </p>
+
+        <!-- ... représente une jauge, une fraction d’une mesure, une mesure dans un intervalle connu ou une proportion connue (ex. utilisation d’un disque, pertinence du résultat d’une requête, proportion de votants ayant choisi un candidat spécifique, etc.).
+        Utiliser les attributs ... (obligatoire), ..., ..., ... -->
+        <p>
+            Utilisation de l'espace de stockage: 6 blocs utilisés (sur un total de 8).
+        </p>
+
+        <!-- ... représente une barre de progression. Il est utilisé pour visualiser l’avancement d’une tâche (ex. barre de chargement).
+        Utiliser les attributs ... (obligatoire) et ... -->
+        <p>
+            Progression : 70 %
+        </p>
+
+        <!-- ... est l’élément générique en ligne. Il n’a pas de sémantique particulière.
+        Il ne doit être utilisé qu’en dernier recours, quand il n’existe aucun autre élément plus approprié.
+        Il permet de grouper des éléments pour, par ex., les styler (en utilisant les attributs class ou id), ou parce qu’ils partagent certaines valeurs d’attribut, comme pour lang. -->
+        <p>
+            HTML signifie Hyper Text Markup Langage en anglais.
+        </p>
+    </body>
+</html>
