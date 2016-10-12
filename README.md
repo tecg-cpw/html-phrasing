@@ -1,6 +1,6 @@
 # HTML "phrasing"
 
-> HTML exercise given at HEPL
+> HTML exercise about phrasing & text tags
 
 * * *
 
