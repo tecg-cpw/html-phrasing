@@ -360,3 +360,12 @@ body {
     max-width: 60ch;
     margin: auto;
 }
+
+kbd kbd{
+    font-family: 'Fira Code', monospace;
+    background-color: #f4f0d3;
+    border: 1px solid #dfcb41;
+    border-radius: 3px;
+    padding: 0.1em 0.3em;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
