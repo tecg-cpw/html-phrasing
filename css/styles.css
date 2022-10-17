@@ -361,6 +361,18 @@ body {
     margin: auto;
 }
 
+h1 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 0;
+}
+
+dfn {
+    color: purple;
+}
+
 kbd kbd {
     font-family: 'Fira Code', monospace;
     background-color: #f4f0d3;
