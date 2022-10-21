@@ -18,6 +18,6 @@ Une fois n'est pas coutume, les instructions de l'exercice se trouvent à l'int�
 
 Voici un rendu du résultat final à obtenir.
 
-![Rendu de la page](./img/rendu.webp "a title")
+![Rendu de la page](./img/rendu.png "a title")
 
 Bon travail.
