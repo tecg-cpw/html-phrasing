@@ -375,7 +375,7 @@ dfn {
 }
 
 
-code, kbd{
+code, kbd, samp{
     font-family: 'Fira Code', monospace;
     font-size: 0.8em; 
 }
